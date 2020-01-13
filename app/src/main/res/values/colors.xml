@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="PrimaryColor">#b7204c</color>-->
+    <color name="PrimaryColor">#d54e4e</color>
+    <color name="PrimaryColorStatusbar">#CCd54e4e</color>
+    <color name="primaryPressed">#b6b6b6</color>
+    <color name="primaryFocused">#b6b6b6</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+    <color name="textColorChangedInLogIn"> #00695c </color>
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="title">#05df26</color>
+    <color name="ColorPrimaryDark">#E64A19</color>
+    <color name="theBorderColorInUncheckedState">#b7204c</color>
+    <color name="colorControlHighlight">#FFFFFF</color>
+    <color name="theFillColorInCheckedState">#FFFFFF</color>
+    <color name="theBackgroundColorWhenFocusingTheCheckBox">#FFFFFF</color>
+    <color name="dialogBlack">#FF000000</color>
+    <color name="blackshade">#303030</color>
+    <color name="blackshade1">#484848</color>
+    <color name="dialogWhiteGrey">#FFF2F2F2</color>
+    <color name="transparent">#00000000</color>
+</resources>

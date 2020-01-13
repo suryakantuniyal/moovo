@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "182674414916",
+    "firebase_url": "https://inno-100.firebaseio.com",
+    "project_id": "inno-100",
+    "storage_bucket": "inno-100.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182674414916:android:96f9177967bdb2d7",
+        "android_client_info": {
+          "package_name": "in.moovo.moovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182674414916-0c0it5cucbhkjoiiqqqmipld0plfm7q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAONFnyuntMv786kiGm_bX13yRSnU3fBmY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182674414916:android:163d37e73fe5f814",
+        "android_client_info": {
+          "package_name": "com.innobins.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182674414916-0c0it5cucbhkjoiiqqqmipld0plfm7q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAONFnyuntMv786kiGm_bX13yRSnU3fBmY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182674414916:android:9e5f5816c8ab8f40",
+        "android_client_info": {
+          "package_name": "in.innobins.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182674414916-h5dp2keqdvuhb5c37opvjqrqv3b07mqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.innobins.customer",
+            "certificate_hash": "26dfc2bbf4fc220dc8fc456b1e436d17ecb0b641"
+          }
+        },
+        {
+          "client_id": "182674414916-0c0it5cucbhkjoiiqqqmipld0plfm7q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAONFnyuntMv786kiGm_bX13yRSnU3fBmY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182674414916-0c0it5cucbhkjoiiqqqmipld0plfm7q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

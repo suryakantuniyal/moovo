@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#f6f6f6"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/title"
+        android:background="@drawable/dialog_theme"
+        android:gravity="center"
+        android:textColor="#a91c44"
+        android:textSize="25sp"
+        android:text="Forgot Password"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+    <RelativeLayout
+        android:layout_margin="2px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <Button
+                    android:textSize="18sp"
+                    android:id="@+id/button1"
+                    android:textColor="#fff"
+                    android:background="#a91c44"
+                    android:text="@string/cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:background="#fff"
+                android:layout_width="1px"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <Button
+                    android:textSize="18sp"
+                    android:id="@+id/button2"
+                    android:textColor="#fff"
+                    android:background="#00695c"
+                    android:text="@string/confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

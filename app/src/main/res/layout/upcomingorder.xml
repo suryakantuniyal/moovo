@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/orderList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:background="#ffffffff" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:text="No Moovo Booked!"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:id="@+id/moovo"
+            android:textColor="#000"
+            android:textSize="30sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/moovo"
+            android:layout_marginTop="5dp"
+            android:text="There are no upcoming moovo for you"
+            android:gravity="center"
+            android:id="@+id/upcoming"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/upcoming"
+            android:text="BOOK A TRUCK"
+            android:gravity="center"
+            android:id="@+id/bookmoovo"
+            android:textColor="@color/PrimaryColor"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+</LinearLayout>

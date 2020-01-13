@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Inno Customer</string>
+    <string name="google_maps_key" translatable="false">
+     AIzaSyAjuMmRp9--FIPdSShzkSix5S1-gWnZ2bY
+    </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_item_1">Home</string>
+    <string name="navigation_item_2">Events</string>
+    <string name="starred_string">Starred</string>
+    <string name="enterpasswordDetaisl"><i>Enter New Password Details</i></string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="inbox_string">Inbox</string>
+    <string name="sent_mail_string">Sent mail</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="pickup">Pick UP</string>
+    <string name="dropoff">Drop  Off</string>
+    <string name="dropLocation">DROPOFF LOCATION</string>
+    <string name="pickLocation">PICKUP LOCATION</string>
+    <string name="login">LOG IN</string>
+    <string name="userexist">User Already Exist</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="username">Username</string>
+    <string name="mobil">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="applyCoupon">APPLY COUPON</string>
+    <string name="labour">Labours</string>
+    <string name="transit">TRANSIT\nSURCHARGE</string>
+    <string name="labourCh">LABOUR\nCHARGE</string>
+    <string name="closing">CLOSED\nBODY</string>
+    <string name="orderDetail">ORDER DETAILS</string>
+    <string name="addrequire">ADDITIONAL REQUIREMENT</string>
+    <string name="password">Password</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="apply">APPLY COUPON</string>
+    <string name="promo"><i>Please Enter Promo Code</i></string>
+    <string name="verifyotp">Verify OTP</string>
+    <string name="wrongPwOrUserName">Wrong Username Or Password</string>
+    <string name="invalidPassword">"Invalid Password"</string>
+    <string name="invalidUsername">Invalid Username</string>
+    <string name="LoginRequest">Login Request</string>
+    <string name="varifyTrail">otp has been varifiedt</string>
+    <string name="numberVerification">Verifying Number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_password">Enter PassWord</string>
+    <string name="already_a_moovo_driver">Already a Moovo Driver ?</string>
+    <string name="noNetwork">No Network Connection</string>
+    <string name="connectingToMoovo" translatable="false">CONNECTING TO MOOVO</string>
+    <string name="name">Name</string>
+    <string name="forgot"><u>Forgot Password</u></string>
+    <string name="chage_password">Change Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+    <string name="draft_string">Drafts</string>
+    <string name="subheader">Subheader</string>
+    <string name="trash_string">Trash</string>
+    <string name="all_mail_string">All mails</string>
+    <string name="spam_string">Spams</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="verify">PROCEED</string>
+    <string name="phone">Mobile Number</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="city">Number of City</string>
+    <string name="vehicleSelect">SELECT MINI TRUCK</string>
+
+    <string-array name="Cities">
+        <item>Delhi</item>
+        <item>Delhi NCR</item>
+    </string-array>
+    <string-array name="Minitrucks">
+        <item>EECO</item>
+        <item>CHAMPION</item>
+        <item>TATA ACE</item>
+        <item>TATA 407</item>
+        <item>14 FEET</item>
+        <item>17 FEET</item>
+    </string-array>
+</resources>

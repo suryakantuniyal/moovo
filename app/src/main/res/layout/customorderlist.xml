@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:iosched="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="2dp"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        iosched:cardCornerRadius="3dp"
+        iosched:cardElevation="3dp"
+        iosched:cardBackgroundColor="@color/white"
+        android:id="@+id/UpperPart"
+        iosched:cardPreventCornerOverlap="false">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:id="@+id/clock"
+                android:src="@drawable/ic_alarm"
+                />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignLeft="@+id/clock"
+                android:id="@+id/dateTimePick"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DateTime"
+                    android:id="@+id/datetime"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginEnd="40dp"
+                android:id="@+id/pickuplay"
+                android:layout_alignLeft="@+id/clock"
+                android:layout_alignStart="@+id/clock"
+                android:layout_below="@+id/dateTimePick"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="from"
+                    android:textStyle="italic"
+                    android:id="@+id/from"
+                    android:singleLine="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DateTime"
+                    android:id="@+id/pickup"
+                    android:layout_marginLeft="35dp"
+                    android:layout_alignLeft="@+id/from"
+                    android:layout_alignStart="@+id/from"
+                    android:singleLine="true"
+                    />
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:id="@+id/arrow"
+                android:src="@drawable/ic_chevron_right"
+                android:layout_alignTop="@+id/clock"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

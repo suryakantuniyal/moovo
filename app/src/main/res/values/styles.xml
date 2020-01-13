@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="colorControlNormal">@color/accent</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent</item>
+
+        <!-- Customize your theme here. -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="MyTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorBackground">@color/dialogWhiteGrey</item>
+
+    </style>
+    <style name="MyCustomeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/PrimaryColor</item>
+        <item name="colorPrimaryDark">@color/PrimaryDarkColor</item>
+
+        <!-- Customize your theme here. -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+    <style name="CustomAlertDialogStyle">
+
+    </style>
+    <style name="CustomCheckBox">
+        <item name="android:theme">@style/CheckBoxAppTheme</item>
+    </style>
+
+    <style name="CheckBoxAppTheme">
+        <item name="colorAccent">
+            @color/theFillColorInCheckedState
+        </item>
+        <item name="colorControlNormal">
+            @color/PrimaryColor
+        </item>
+        <item name="colorControlHighlight">
+            @color/theBackgroundColorWhenFocusingTheCheckBox
+        </item>
+    </style>
+    <style name="ToolBar">
+        <item name="android:text">@string/app_name</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/primaryFocused</item>
+        <item name="colorControlActivated">@color/PrimaryColor</item>
+    </style>
+</resources>

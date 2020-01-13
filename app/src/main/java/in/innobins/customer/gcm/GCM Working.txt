@@ -1,0 +1,31 @@
+We use RegistrationIntentService.java to register to application server.
+******************
+1. Registration Intent is invoked from the MainActivity(explicitly) and from InstanceListenerService(implicitly)
+2. Server Utilities is used to store any server information
+3. InstanceListenerService listens to change in GCM token and on getting any new token it again invokes RegistrationIntent service
+4. Gcm Command just provides an interface to different kind of commands that the application can handle
+5. Command sub-package defines all different types of command that app can handle and their corresponding handling every command class extends GcmCommand
+6. MessageReceiver listens for the incoming messages and instantiates a GcmCommand type class corresponding to the type of message being received.
+
+
+
+ // Communication Details
+ 1.  api/customer/gcm/notice
+      phoneNumber....send
+      text....send
+      imageUrl.....send
+
+     action .....receive
+     cancellable...receive
+
+
+     api/gcm/broadcast
+     text
+     imageUrl.....optional send
+
+
+     action
+     cancellable
+
+
+
